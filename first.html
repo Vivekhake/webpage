@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+
+</head>
+<!-- /icon  link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- pages addd of add product informations -->
+
+<link rel="stylesheet" href="backpage1.html">
+<link rel="stylesheet" href="backpage2.html">
+<link rel="stylesheet" href="backpage3.html">
+<link rel="stylesheet" href="backpage4.html">
+<link rel="stylesheet" href="backpage5.html">
+<link rel="stylesheet" href="backpage6.html">
+<link rel="stylesheet" href="backpage7.html">
+<link rel="stylesheet" href="backpage8.html">
+<link rel="stylesheet" href="backpage9.html">
+<link rel="stylesheet" href="backpage10.html">
+<link rel="stylesheet" href="backpage11.html">
+<link rel="stylesheet" href="backpage12.html">
+<link rel="stylesheet" href="backpage13.html">
+<link rel="stylesheet" href="backpage14.html">
+<link rel="stylesheet" href="backpage15.html">
+<link rel="stylesheet" href="backpage16.html">
+
+
+<style>
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    
+    }
+
+    #header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* Center content in the header */
+        padding: 20px 80px;
+        background: #e3e6f3;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+        overflow: hidden;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    #header a {
+        flex: 1;
+        /* Ensure logo and navbar container are on opposite sides */
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a1a;
+        transition: 0.3s ease;
+
+    }
+
+    #navbar li a:hover,
+    #navbar li a.active {
+        color: cadetblue;
+    }
+
+    #navbar li a.active::after,
+    #navbar li a:hover::after {
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+    }
+
+    #hero {
+    
+      background-image: url("shirt/banner/shop.jpg");
+      height: 90vh;
+      width: 100%;
+      background-size: cover;
+      background-position: top 25%  right 0;
+      padding: 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+        overflow: hidden;
+        width: 100%;
+        /* Change max-width to width */
+    }
+        
+        .adjust {
+        margin-top: 100px;
+    }
+
+    
+    #hero button {
+        background-image: url("shirt/new/button.png");
+        background-color: transparent;
+        color: #088178;
+        border: 0;
+        padding: 14px 80px 14px 65px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .sections-p1 {
+        padding: 40px 80px;
+    }
+
+    #feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #feature .fe-box {
+        width: 200px;
+        justify-content: space-between;
+        text-align: center;
+        padding: 15px 10px;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+        border: 1px solid #cce7de;
+        border-radius: 4px;
+        margin: 20px 0;
+    }
+
+    #feature .fe-box:hover {
+        box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+        transform: scale(1.2);
+        z-index: 1;
+    }
+
+    #feature .fe-box img {
+        width: 100%;
+        margin-bottom: -12px;
+    }
+
+    #feature .fe-box h6 {
+        display: inline-block;
+        padding: 9px 8px 6px 8px;
+        line-height: 1;
+        border-radius: 4px;
+        color: #088178;
+        background-color: #fddde4;
+        font-size: 14px;
+    }
+
+    .adjust {
+        margin-top: 180px;
+    }
+
+    .ad {
+        font-size: 70px;
+        color: #088178;
+    }
+
+    .av {
+        font-size: 50px;
+        color: darkorange;
+    }
+
+    .ag {
+        font-size: 25px;
+    }
+
+    .am {
+        font-size: 22px;
+    }
+
+    #feature .fe-box:nth-child(2) h6 {
+        background-color: #cdebbc;
+        font-size: 14px;
+    }
+
+    #feature .fe-box:nth-child(3) h6 {
+        background-color: #d1e8f2;
+        font-size: 14px;
+    }
+
+    #feature .fe-box:nth-child(4) h6 {
+        background-color: #cdd4f8;
+        font-size: 14px;
+    }
+
+    #feature .fe-box:nth-child(5) h6 {
+        background-color: #f6dbf6;
+        font-size: 14px;
+    }
+
+    #feature .fe-box:nth-child(6) h6 {
+        background-color: #fff2e5;
+        font-size: 14px;
+    }
+
+    .frature {
+        font-style: bold;
+        font-size: 59px;
+        margin-bottom: 10px;
+        /* width: 100px; */
+    }
+
+    .summer {
+        font-size: 20px;
+    }
+
+    :root {
+        --rad: .7rem;
+        --dur: .3s;
+        --color-dark: #2f2f2f;
+        --color-light: #fff;
+        --color-brand: #57bd84;
+        --font-fam: 'Lato', sans-serif;
+        --height: 5rem;
+        --btn-width: 6rem;
+        --bez: cubic-bezier(0, 0, 0.43, 1.49);
+    }
+
+    // Setup
+    body {
+        background: var(--color-dark);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        /* Ensure no margin to avoid scroll */
+    }
+
+    html {
+        box-sizing: border-box;
+        height: 100%;
+        font-size: 10px;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    // Main styles
+    form {
+        position: fixed;
+        /* Fixed position */
+        top: 1rem;
+        /* Adjust as needed */
+        right: 1rem;
+        /* Adjust as needed */
+        background: var(--color-brand);
+        border-radius: var(--rad);
+        width: 30rem;
+        /* Add z-index if needed to ensure form is above other content */
+        z-index: 1000;
+    }
+
+    input,
+    button {
+        height: var(--height);
+        font-family: var(--font-fam);
+        border: 0;
+        color: var(--color-dark);
+        font-size: 1.8rem;
+    }
+
+    input[type="search"] {
+        outline: 0;
+        /* Consider removing for accessibility */
+        width: 100%;
+        background: var(--color-light);
+        padding: 0 1.6rem;
+        border-radius: var(--rad);
+        appearance: none;
+        /* for iOS input[type="search"] roundedness issue */
+        transition: all var(--dur) var(--bez);
+        transition-property: width, border-radius;
+        z-index: 1;
+        position: relative;
+    }
+
+
+    label {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+    }
+
+    #product1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #product1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .frature {
+        font-style: bold;
+        font-size: 59px;
+        margin-bottom: 10px;
+        /* width: 100px; */
+    }
+
+    #product1 p {
+        font-size: 20px;
+    }
+
+    .summer {
+        font-size: 20px;
+    }
+
+    #product1 .pro {
+        width: 23%;
+        /* min-height: 250px; */
+        height: 480px;
+        padding: 10px 12px;
+        border: 1px solid #cce7d0;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+        margin: 12px 0;
+        transition: 0.2 ease;
+        position: relative;
+    }
+
+    #product1 .pro:hover {
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+        transform: scale(0.9);
+        z-index: 1;
+    }
+
+    .pro a img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #product1 .pro .des {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #product1 .pro .des h5 {
+        padding-top: 7px;
+        color: #1a1a1a;
+        font-size: 14px;
+    }
+
+    #product1.pro.des.span {
+        color: #1a1a1a;
+        font-size: 10px;
+    }
+
+    .an {
+
+        font-size: 15px;
+        text-align: left;
+        margin-top: -1px;
+    }
+
+    .az {
+        color: black;
+        font-size: 20px;
+        margin-top: -10%;
+        text-align: left;
+    }
+
+    .fa-star {
+            font-size: 20px;
+            color: black; /* Default color */
+            cursor: pointer;
+            transition: color 0.2s ease;
+            position: relative;
+            right: 80px
+            
+        }
+
+    .aj {
+        position: absolute;
+        top: 338px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #088178;
+        text-align: left;
+
+    }
+
+    .vg {
+        position: absolute;
+        top: 400px;
+        max-width: 50px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background-color: #e8f6ea;
+        font-weight: 500;
+        color: #088178;
+        border: 1px solid #cce7d0;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        display: flex;
+        /* Flexbox to align the image */
+        justify-content: center;
+        /* Center the image horizontally */
+        align-items: center;
+        /* Center the image vertically */
+        padding: 5px;
+        /* Optional padding if needed */
+        width: 40px;
+
+    }
+
+    .vg img {
+        width: 20px;
+        /* Adjust the size of the image */
+        height: 20px;
+        /* Ensure the image fits well */
+        margin: 0;
+        /* Reset default margin */
+        padding: 0;
+        /* Reset default padding */
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        gap: 20px;
+        /* Adds space between items */
+    }
+
+    .love  {
+        position: absolute;
+        left: 70px;
+        bottom: 34px;
+        margin-left: 150px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        padding: 200px;
+        background-image: url("shirt/banner/parallax.jpg");
+        color: white;
+
+
+    }
+
+    .banner span {
+        color: red;
+    }
+
+    .h4 {
+        margin: 0;
+        font-size: 24px;
+        /* Increased font size */
+    }
+
+    .h2 {
+        margin: 10px 0;
+        font-size: 32px;
+        /* Increased font size */
+
+    }
+    #sm-banner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    #sm-banner .banner-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 50vh;
+        align-items: flex-start;
+        background-size: cover;
+        background-position: center;
+        background-image: url("shirt/banner/banner1.jpg");
+        color: black;
+        padding: 30px;
+        cursor: pointer;
+
+    }
+    #sm-banner .banner-box:hover button{
+        background:#088178;
+        border: 1px solid #088178;
+        color: white;
+    }
+
+    .spring{
+        background-image: url("shirt/banner/banner\ 2.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 50vh;
+        align-items: flex-start;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        padding: 30px;
+        opacity: 5px;
+        cursor: pointer;
+
+    }
+    .spring:hover button{
+        background:orange;
+        border: 1px solid #088178;
+        color: white;
+        opacity: 5px;
+    }
+
+    .h{
+      
+        font-size: 19px;
+        position:relative;
+        top: 66px;
+        font-weight: 300;
+        color:black;
+
+    }
+    .u{
+       font-size: 50px;
+       color: white;
+       font-weight: 800;
+    }
+    .n{
+        position: relative;
+        bottom: 30px;
+        font-size: 15px;
+        color:black;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    .b{
+        border-radius: 10px;
+        background-color: rgb(234, 101, 6);
+        font-size: 13px;
+        font-weight: 600;
+        padding: 11px 18px;
+        background-color: transparent;
+        cursor: pointer;
+        border: 1px solid white;
+        outline: none;
+        transition: 0.2s;
+    }
+    .q{
+      
+      font-size: 19px;
+      position:relative;
+      top: 66px;
+      font-weight: 300;
+      color:white;
+
+  }
+  .w{
+     font-size: 50px;
+     color: white;
+     font-weight: 800;
+  }
+  .y{
+      position: relative;
+      bottom: 30px;
+      font-size: 15px;
+      color: white;
+      font-weight: 500;
+      padding-bottom: 15px;
+  }
+  .o{
+      border-radius: 10px;
+      background-color: rgb(234, 101, 6);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 11px 18px;
+      background-color: transparent;
+      cursor: pointer;
+      border: 1px solid white;
+      outline: none;
+      transition: 0.2s;
+  }
+  
+  .banner3{     
+    display: flex;
+        justify-content: space-between;
+    
+
+       
+        
+  } 
+  .sp{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        padding: 150px;
+        background-image: url("shirt/banner/banner\ 3.jpg");
+        color: white;
+        position:relative;
+
+        top: 30px;
+      
+
+  }
+ .mp{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        padding: 150px;
+        position:relative;
+        top: 30px;
+        left: 22px;      
+        background-image: url("shirt/banner/banner\ 4.jpg");
+        color: white;
+
+ }
+ .np
+ {
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        padding: 150px;
+        background-image: url("shirt/banner/banner\ 5.jpg");
+        color: white;
+        position:relative;
+        top: 30px;
+        left: 45px;
+    }
+    .d{
+        font-size: 40px;
+        position: absolute;
+        bottom: 50px;
+        left: 10px;
+    }
+    .z{
+        font-size: 25px;
+        position: absolute;
+        top: 195px;
+        bottom: 5px;
+        left: 8px;
+    }
+    .g{
+        font-size: 30px;
+        position: relative;
+        right: 140px;
+        top: 20px;
+    }
+    .t{
+        font-size: 20px;
+        position: absolute;
+        top: 210px;
+        left: 20px;
+    }
+    .v{
+        font-size: 30px;
+        position: relative;
+        right: 140px;
+        top: 20px;
+    }
+    .l{
+        font-size: 20px;
+        position: absolute;
+        top: 180px;
+        left: 20px;
+    }
+    .lop{
+        height: 250px;
+        background-color: #088178;
+    }
+.gb h4{
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+    left: 250px;
+}
+.gb p{
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    left: 150px;
+}
+.gb span{
+    color: orange;
+}
+.form{
+    position: absolute;
+    left: 1200px;
+    
+}
+
+.form button{
+    background-color: orange;
+    cursor: pointer;  
+}
+
+.last{
+    position: relative;
+    left: 150px;
+    top: 40px;
+    height: 200px;
+}
+.last img{
+    position: relative;
+    top: 20px;
+}
+.last h4{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+.last strong{
+    font-size: 18px;
+    position: relative;
+}
+.last p{
+    font-size: 15px;
+    position: relative;
+
+}
+.follow h4{
+    position: absolute;
+    top: 215px;
+}
+.icon_m{
+   font-size: 30px;
+   justify-content: space-between;
+   position: absolute;
+    top: 285px;
+    cursor: pointer;
+}
+.icon_m a{
+    color: #1a1a1a;
+}
+.loc {
+    display: flex;           /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the columns */
+    padding: 20px;           /* Add some padding around the container */
+}
+
+/* Each column */
+.col {
+    flex: 1;                 /* Each column takes equal width */
+    margin-right: 20px; 
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+    /* Add some space between the columns */
+}/* Style the headings */
+.col h4 {
+    font-size: 18px;         /* Font size for headings */
+    margin-bottom: 15px;    /* Space between heading and links */
+}
+
+/* Style the links */
+.col a {
+    display: block;          /* Each link on a new line */
+    color: #333;             /* Link color */
+    text-decoration: none;   /* Remove underline from links */
+    margin-bottom: 10px; 
+    font-size: 16px; 
+      /* Space between each link */
+}
+
+.col a:hover {
+    color: #007BFF;          /* Change color on hover */
+}
+
+.clo{
+    flex: 1;                 /* Each column takes equal width */
+    margin-right: 20px; 
+    position: relative; 
+    left: 100px; 
+    bottom: 100px;   /* Add some space between the columns */
+ 
+}
+.clo h4{
+    font-size: 18px;         /* Font size for headings */
+    margin-bottom: 15px;     /* Space between heading and links */  
+}
+.clo a{
+    display: block;          /* Each link on a new line */
+    color: #333;             /* Link color */
+    text-decoration: none;   /* Remove underline from links */
+    margin-bottom: 10px; 
+    font-size: 16px;  /* Space between each link */ 
+}
+.clo a:hover {
+    color: #007BFF;          /* Change color on hover */
+}
+
+/* Container for the install section */
+.install{
+    position: relative;
+    left: 1070px;
+    bottom: 290px;
+}
+.install h4{
+       font-size: 20px;
+       bottom: 50px;
+}
+.install p{
+    font-size: 17px;
+
+}
+
+.relame{
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+}
+.lom{
+    max-height: 300px;
+}
+
+.copyright {
+    background-color: #D3D7E9; /* Slightly darker background to differentiate */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #333; /* Darker text for better readability */
+    margin-top: 100px;
+    position: relative;
+    bottom: 310px;
+}
+
+.copyright p {
+    margin: 0; /* Remove default margin */
+    font-weight: 300; /* Slightly bolder text for emphasis */
+}
+
+@media screen and (max-width: 768px) {
+    .copyright {
+        font-size: 12px; /* Smaller text on mobile */
+    }
+}
+
+#hem .op {
+            width: 100%; /* Adjust the width as needed */
+            border: 1px solid #ccc; /* Optional: For visual reference */
+            padding: 20px; /* Optional: For inner spacing */
+            box-sizing: border-box;
+            position: relative;
+            
+            /* Ensure padding is included in the width */
+        }
+
+        /* List styling */
+        #hem .op ul {
+            list-style: none; /* Remove bullet points */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row; /* Arrange items horizontally */
+            justify-content: space-between; /* Evenly distribute items */
+            align-items: center; /* Align items vertically within the container */
+        }
+
+        /* Link styling */
+        #hem .op ul li a {
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Set link color */
+            font-size: 16px; /* Adjust font size as needed */
+            padding: 0 10px; /* Add some horizontal spacing */
+        }
+
+        /* Optional: Hover effect for links */
+        #hem .op ul li a:hover {
+            color: #007BFF; /* Change color on hover */
+        }
+        .icon
+       {
+          display: flex;
+          gap: 0px; /* Space between icons */
+          justify-content: center; /* Center the icons horizontally */
+          align-items: center; /* Center the icons vertically */
+        }
+
+.icon img {
+    width: 50px; /* Adjust the size of the icons */
+    height: 50px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth hover effect */
+    cursor: pointer; /* Change cursor to a pointer (hand) */
+    border-radius: 50%; /* Make the icons circular */
+}
+
+.icon img:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+    filter: brightness(1.2); /* Slightly brighten the icon */
+}
+.menu{
+    display: none;
+    align-items: center;
+}
+/*
+to create a response
+*/
+@media (max-width:800px) {
+ #navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width:300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding:80px 0 0 10px;      
+    
+}
+#navbar li{
+    margin-bottom: 25px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu i{
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+}
+}
+
+     
+</style>
+
+<body>
+    <section id="header">
+        <a href=""><img src="https://ecommerce-cara.netlify.app/img/logo.png" alt=""></a>
+        <form>
+            <label for="search">Search</label>
+            <input id="search" type="search" pattern=".*\S.*" required placeholder="Search">
+            <span class="caret"></span>
+        </form>
+        <div>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="shope.html">SHOPE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="about.html">CONTACT</a></li>
+            <li><a href="contact.html">MY ACCOUNT</a></li>
+            <li><a href="register.html"><i class="fa fa-user"></i></a></li>
+        </ul>
+    </div>
+    <div class="menu">
+         <button><img src="shirt/logo of socila/menu.png" alt=""></button>
+    </div>
+    </section>
+    <section id="hem">
+        <div class="op">
+           <ul>
+            <li><a href=""> Electronics</a></li>
+            <li><a href="">TVs & Appliances</a></li>
+            <li><a href="">Men</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Baby & Kids</a></li>
+            <li><a href="">Home & Furniture</a></li>
+            <li><a href="">Sports, Books & More</a></li>
+            <li><a href="">Flights</a></li>
+            <li><a href="">Offer Zone</a></li>
+            
+           </ul>
+
+        </div>
+    </section>
+    <div id="hero">
+        <div class="adjust">
+            <div class="ag">Tread-in-offer</div>
+            <div class="av">super Value deals</div>
+            <div class="ad">On all products</div>
+            <p class="am"> save more with coupons & to 70% off</p>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div id="feature" class="sections-p1">
+        <div class="fe-box">
+            <img src="shirt/f images/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="shirt/f images/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="shirt/f images/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="shirt/f images/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="shirt/f images/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="shirt/f images/f6.png" alt="">
+            <h6>F24/7 Support
+
+            </h6>
+        </div>
+    </div>
+    <div id="product1" class="sections-p1">
+        <div class="frature">Featured Products</div>
+        <div class="summer">Summer Collection New Morder Desing</div>
+        <div class="container">
+
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shirt 1.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star" ></span>
+                        <span class="fa fa-star" onclick="toggleStar(this)"></span>
+                        <span class="fa fa-star" onclick="toggleStar(this)"></span>
+                        <span class="fa fa-star" onclick="toggleStar(this)"></span>
+                        <span class="fa fa-star" onclick="toggleStar(this)"></span>
+                        
+                    </div>
+                    <div class="aj">
+                        <h4>$75</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                   <a href="./backpage1.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a> 
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+
+
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shrit 2.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                    </div>
+                    <div class="aj">
+                        <h4>$80</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                   <a href="backpage2.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a> 
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shrit 4.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="aj">
+                        <h4>$75</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage3.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shirt 5.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="aj">
+                        <h4>$70</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage4.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shrit 3.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="aj">
+                        <h4>$81</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage5.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shrit 6.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                   
+                     </div>
+                    <div class="aj">
+                        <h4>$78</h4>
+                    </div>
+                </div>
+
+                <div class="vg">
+                   <a href="backpage6.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love ">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shrit 7.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                    
+                     </div>
+                    <div class="aj">
+                        <h4>$89</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage7.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                 </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/shrit/shrit 8.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                    
+                     </div>
+                    <div class="aj">
+                        <h4>$68</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                   <a href="backpage8.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i>
+                   </a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="banner">
+        <h4 class="h4">Repair Services</h4>
+        <h2 class="h2">Up to <span>70% Off</span> All t-Shirt & Accessories <br>
+            <button>Explore More</button>
+
+        </h2>
+    </div>
+
+    <div id="product1" class="sections-p1">
+        <div class="frature"></div>
+        <div class="summer"></div>
+        <div class="container">
+
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t 1.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                   
+                      </div>
+                    <div class="aj">
+                        <h4>$75</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage9.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>    
+                </div>
+
+
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t2.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                   
+                      </div>
+                    <div class="aj">
+                        <h4>$80</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                   <a href="backpage11.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t3.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                     
+                    </div>
+                    <div class="aj">
+                        <h4>$75</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage12.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t4.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                     
+                    </div>
+                    <div class="aj">
+                        <h4>$70</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage13.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t5.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                     
+                    </div>
+                    <div class="aj">
+                        <h4>$81</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage13.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t6.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                     
+                    </div>
+                    <div class="aj">
+                        <h4>$78</h4>
+                    </div>
+                </div>
+
+                <div class="vg">
+                   <a href="backpage14.html"> <i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love ">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+            <div class="pro">
+                <a href=""><img src="shirt/new/t7.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                  
+                       </div>
+                    <div class="aj">
+                        <h4>$89</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                   <a href="backpage15.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href=""><img src="shirt/new/t8.jpg" alt=""></a>
+                <div class="des">
+                    <h6 class="an">adidas</h6>
+                    <h3 class="az">Cartoon Astronaut T-Shirts</h3>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span> 
+                        <span class="fa fa-star checked"></span>                                              
+                        <span class="fa fa-star checked"></span>                                               
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>                    
+                     </div>
+                     
+                    <div class="aj">
+                        <h4>$68</h4>
+                    </div>
+                </div>
+                <div class="vg">
+                    <a href="backpage16.html"><i class="fa fa-shopping-cart" style="color: #1a1a1a;"></i></a>
+                </div>
+                <div class="love">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="sm-banner" class="sections-p1">
+        <div class="banner-box">
+            <h4 class="h">crazy deals</h4>
+            <h2 class="u">buy 1 get 1 Free</h2>
+            <span class="n">The best classic dress is on sale at cara</span>
+            <button class="b">Learn More</button>
+        </div>
+        <div class="spring">
+            <h4 class="q">Spring \ summer</h4>
+            <h2 class="w">Upcoming Season</h2>
+            <span class="y">The Best classic Dress is on sale at cara</span>
+            <button class="o">Learn More</button>
+        </div>
+
+        <div class="banner3">
+            <div class="sp">
+                <h2 class="d">Season sale</h2>
+                <h3 class="z">Spring \ winter</h3>
+            </div>
+    
+            <div class="mp">
+                <h2 class="g">New Footwear Collection</h2>
+                <h3 class="t">Spring \ winter</h3>
+            </div>
+    
+            <div class="np">
+                <h2 class="v">T-Shirt</h2>
+                <h3 class="l">Spring \ winter 2022</h3>
+            </div>
+    
+        </div>
+    </section>
+<div class="lop">
+    <div class="gb">
+        <h4>Sign Up Newsletters</h4> 
+        <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+           <div class="form">
+                <input  class="ty" type="text" placeholder="Your email Address">
+                <button class="tu">Sign Up</button>
+           </div>
+    
+
+        </div>
+     <div class="lom">
+                <div class="last">
+            <img src="https://ecommerce-cara.netlify.app/img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32 San Franciscon</p>
+            <p><strong>Phone:</strong> 9623768810 / 8892441414</p>
+            <p><strong>Hours:</strong> 10.00 - 18.00,Mon - Sat </p>
+            <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon_m">
+                        <a href="https://www.facebook.com/profile.php?id=100086086271597"><i class="fa fa-facebook-f"></i></a>                        
+                        <a href="https://www.instagram.com/v_i_c_k_y5814/"><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href="https://github.com/dashboard"><i class="fa fa-github"></i></a>
+
+
+                    </div>
+              </div>
+        </div>
+          <div class="loc">
+           <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+             <a href="#">Delivery Information</a>
+             <a href="#">Privacy Policy</a>
+             <a href="#">Contact Us</a>  
+      </div>
+      <div class="clo">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+           <a href="#">View Cart</a>
+           <a href="#">My Wishlist</a>
+           <a href="#">Track My Order</a>
+    </div>
+</div>
+
+          <div class="install">
+             <h4>Payment</h4>
+                  
+                  <p>Seacured Payment Gateways</p>
+                  <button class="relame"><img src="shirt/payment/visa.png" alt=""></button>
+          </div>
+          <div class="copyright">
+              <p>@ 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+          </div>
+      
+      </div>
+    </div>
+ 
+    </div>
+   
+</body>
+
+</html>
